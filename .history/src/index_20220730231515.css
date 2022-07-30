@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 25rem;
-  height: 25rem;
+  height: 15rem;
   border-radius: 0.25rem;
   background-color: #f8f7f7;
 }
@@ -15,7 +15,7 @@
 
 .toggle {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -28,16 +28,13 @@
   z-index: 999;
 }
 
-.todo-center .todo-img img {
-  object-fit: cover;
-  width: 75px;
-  height: 75px;
-}
-
-.todo-img {
+.toggle-control {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-transform: uppercase;
 }
 
 .toggle {
@@ -54,9 +51,7 @@
 }
 
 .toggle-title {
-  position: relative;
-  top: 20%;
-  font-weight: 600;
+  po
   text-transform: uppercase;
   display: flex;
   justify-content: center;

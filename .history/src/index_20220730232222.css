@@ -28,17 +28,22 @@
   z-index: 999;
 }
 
-.todo-center .todo-img img {
+.todo-center img {
   object-fit: cover;
   width: 75px;
   height: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.todo-img {
+/* 
+.toggle-control {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  text-transform: uppercase;
+} */
 
 .toggle {
   width: 100px;
@@ -56,7 +61,6 @@
 .toggle-title {
   position: relative;
   top: 20%;
-  font-weight: 600;
   text-transform: uppercase;
   display: flex;
   justify-content: center;

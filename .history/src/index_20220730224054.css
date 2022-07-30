@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 25rem;
-  height: 25rem;
+  height: 15rem;
   border-radius: 0.25rem;
   background-color: #f8f7f7;
 }
@@ -15,29 +15,18 @@
 
 .toggle {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.todo-center {
+.toggle-control {
   position: absolute;
-  top: 62%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 999;
-}
-
-.todo-center .todo-img img {
-  object-fit: cover;
-  width: 75px;
-  height: 75px;
-}
-
-.todo-img {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 2rem;
 }
 
 .toggle {
@@ -53,16 +42,6 @@
   background-color: #429EBD;
 }
 
-.toggle-title {
-  position: relative;
-  top: 20%;
-  font-weight: 600;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .spinner {
   position: absolute;
   width: 35px;
@@ -71,25 +50,9 @@
   margin-left: 5px;
   border-radius: 50%;
   background-color: #fff;
-  transition: 0.3s linear;
+  transition: 0.2s linear;
 }
 
 .spinner.active {
-  transform: translateX(65px);
-  transition: 0.3s linear;
-}
-
-.toggle-on {
-  margin-right: 0.5rem;
-}
-
-h3 {
-  color: #333;
-}
-
-p {
-  color: rgb(82, 81, 81);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transform: translateX(55px);
 }

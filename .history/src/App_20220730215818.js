@@ -1,9 +1,9 @@
-import Toggle from "./components/Toggle";
+import
 
 function App() {
   return (
     <>
-      <Toggle />
+      <h1>Bất ngờ k ông già!!!</h1>
     </>
   );
 }

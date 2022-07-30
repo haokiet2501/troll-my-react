@@ -3,7 +3,7 @@ import Toggle from "./components/Toggle";
 function App() {
   return (
     <>
-      <Toggle />
+      <h1>Bất ngờ k ông già!!!</h1>
     </>
   );
 }
