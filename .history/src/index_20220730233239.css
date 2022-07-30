@@ -94,20 +94,4 @@ p {
   align-items: center;
 }
 
-@media screen and (max-width: 375px) {
-  .toggle-center {
-    width: 20rem;
-  }
-
-  .toggle-title {
-    font-size: 0.75rem;
-  }
-
-  h3 {
-    font-size: 0.65rem;
-  }
-
-  p {
-    font-size: 0.5rem;
-  }
-}
+@media and screen()
