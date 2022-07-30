@@ -150,18 +150,18 @@ p {
 
 @media only screen and (min-width: 475px) {
   .toggle-center {
-    width: 25rem;
+    width: 20rem;
   }
 
   .toggle-title {
-    font-size: 1em;
+    font-size: 0.75rem;
   }
 
   h3 {
-    font-size: 0.95rem;
+    font-size: 0.7rem;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }

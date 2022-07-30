@@ -154,14 +154,14 @@ p {
   }
 
   .toggle-title {
-    font-size: 1em;
+    font-size: 1.25rem;
   }
 
   h3 {
-    font-size: 0.95rem;
+    font-size: 0.7rem;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }

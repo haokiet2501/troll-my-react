@@ -147,21 +147,3 @@ p {
     font-size: 0.6rem;
   }
 }
-
-@media only screen and (min-width: 475px) {
-  .toggle-center {
-    width: 25rem;
-  }
-
-  .toggle-title {
-    font-size: 1em;
-  }
-
-  h3 {
-    font-size: 0.95rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
-}

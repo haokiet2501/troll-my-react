@@ -94,7 +94,7 @@ p {
   align-items: center;
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .toggle-center {
     width: 15rem;
   }
@@ -112,7 +112,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 345px) {
+@media screen and (max-width: 320px) {
   .toggle-center {
     width: 15rem;
   }
@@ -130,7 +130,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .toggle-center {
     width: 20rem;
   }
@@ -145,23 +145,5 @@ p {
 
   p {
     font-size: 0.6rem;
-  }
-}
-
-@media only screen and (min-width: 475px) {
-  .toggle-center {
-    width: 25rem;
-  }
-
-  .toggle-title {
-    font-size: 1em;
-  }
-
-  h3 {
-    font-size: 0.95rem;
-  }
-
-  p {
-    font-size: 0.8rem;
   }
 }
